@@ -1,0 +1,31 @@
+{
+ "id": "community.misha.picks",
+ "version": "1.0.0",
+ "name": "בשבילי - המלצות אישיות",
+ "description": "המלצות שנבנו מ-9,194 שורות היסטוריית הצפייה בנטפליקס (2017-2026). כל מה שכבר נצפה מסונן החוצה.",
+ "resources": [
+  "catalog"
+ ],
+ "types": [
+  "movie",
+  "series"
+ ],
+ "idPrefixes": [
+  "tt"
+ ],
+ "catalogs": [
+  {
+   "type": "series",
+   "id": "misha-series",
+   "name": "בשבילי - סדרות"
+  },
+  {
+   "type": "movie",
+   "id": "misha-movies",
+   "name": "בשבילי - סרטים"
+  }
+ ],
+ "behaviorHints": {
+  "configurable": false
+ }
+}
