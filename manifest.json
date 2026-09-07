@@ -1,8 +1,8 @@
 {
  "id": "community.misha.picks",
- "version": "1.1.0",
+ "version": "1.2.0",
  "name": "בשבילי - המלצות אישיות",
- "description": "המלצות שנבנו מ-9,194 שורות היסטוריית הצפייה בנטפליקס (2017-2026). כל מה שכבר נצפה מסונן החוצה.",
+ "description": "המלצות אישיות מהיסטוריית הצפייה (נטפליקס + קראנצ׳ירול), ושורות זמינות אמיתית לישראל לפי JustWatch. כל מה שנצפה כבר מסונן החוצה.",
  "resources": [
   "catalog"
  ],
@@ -30,6 +30,31 @@
    "type": "anime",
    "id": "misha-anime",
    "name": "בשבילי - אנימה"
+  },
+  {
+   "type": "movie",
+   "id": "il-nfx-movie",
+   "name": "נטפליקס ישראל - סרטים"
+  },
+  {
+   "type": "series",
+   "id": "il-nfx-series",
+   "name": "נטפליקס ישראל - סדרות"
+  },
+  {
+   "type": "movie",
+   "id": "il-prv-movie",
+   "name": "פריים ישראל"
+  },
+  {
+   "type": "movie",
+   "id": "il-atp-movie",
+   "name": "Apple TV+ ישראל"
+  },
+  {
+   "type": "movie",
+   "id": "il-mxx-movie",
+   "name": "HBO Max ישראל"
   }
  ],
  "behaviorHints": {
