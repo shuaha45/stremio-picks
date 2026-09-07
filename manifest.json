@@ -1,6 +1,6 @@
 {
  "id": "community.misha.picks",
- "version": "1.0.0",
+ "version": "1.1.0",
  "name": "בשבילי - המלצות אישיות",
  "description": "המלצות שנבנו מ-9,194 שורות היסטוריית הצפייה בנטפליקס (2017-2026). כל מה שכבר נצפה מסונן החוצה.",
  "resources": [
@@ -8,10 +8,12 @@
  ],
  "types": [
   "movie",
-  "series"
+  "series",
+  "anime"
  ],
  "idPrefixes": [
-  "tt"
+  "tt",
+  "kitsu"
  ],
  "catalogs": [
   {
@@ -23,6 +25,11 @@
    "type": "movie",
    "id": "misha-movies",
    "name": "בשבילי - סרטים"
+  },
+  {
+   "type": "anime",
+   "id": "misha-anime",
+   "name": "בשבילי - אנימה"
   }
  ],
  "behaviorHints": {
