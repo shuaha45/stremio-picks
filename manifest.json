@@ -1,6 +1,6 @@
 {
  "id": "community.misha.picks",
- "version": "1.2.0",
+ "version": "2.0.0",
  "name": "בשבילי - המלצות אישיות",
  "description": "המלצות אישיות מהיסטוריית הצפייה (נטפליקס + קראנצ׳ירול), ושורות זמינות אמיתית לישראל לפי JustWatch. כל מה שנצפה כבר מסונן החוצה.",
  "resources": [
@@ -8,12 +8,10 @@
  ],
  "types": [
   "movie",
-  "series",
-  "anime"
+  "series"
  ],
  "idPrefixes": [
-  "tt",
-  "kitsu"
+  "tt"
  ],
  "catalogs": [
   {
@@ -27,34 +25,79 @@
    "name": "בשבילי - סרטים"
   },
   {
-   "type": "anime",
-   "id": "misha-anime",
-   "name": "בשבילי - אנימה"
+   "type": "movie",
+   "id": "il-nfx-for-you",
+   "name": "נטפליקס - מומלץ לך"
   },
   {
    "type": "movie",
-   "id": "il-nfx-movie",
-   "name": "נטפליקס ישראל - סרטים"
+   "id": "il-nfx-top-movies",
+   "name": "נטפליקס - Top 10 סרטים"
   },
   {
    "type": "series",
-   "id": "il-nfx-series",
-   "name": "נטפליקס ישראל - סדרות"
+   "id": "il-nfx-top-series",
+   "name": "נטפליקס - Top 10 סדרות"
   },
   {
    "type": "movie",
-   "id": "il-prv-movie",
-   "name": "פריים ישראל"
+   "id": "il-atp-for-you",
+   "name": "Apple TV+ - מומלץ לך"
   },
   {
    "type": "movie",
-   "id": "il-atp-movie",
-   "name": "Apple TV+ ישראל"
+   "id": "il-atp-top-movies",
+   "name": "Apple TV+ - Top 10 סרטים"
+  },
+  {
+   "type": "series",
+   "id": "il-atp-top-series",
+   "name": "Apple TV+ - Top 10 סדרות"
   },
   {
    "type": "movie",
-   "id": "il-mxx-movie",
-   "name": "HBO Max ישראל"
+   "id": "il-prv-for-you",
+   "name": "פריים - מומלץ לך"
+  },
+  {
+   "type": "movie",
+   "id": "il-prv-top-movies",
+   "name": "פריים - Top 10 סרטים"
+  },
+  {
+   "type": "series",
+   "id": "il-prv-top-series",
+   "name": "פריים - Top 10 סדרות"
+  },
+  {
+   "type": "movie",
+   "id": "il-mxx-for-you",
+   "name": "HBO Max - מומלץ לך"
+  },
+  {
+   "type": "movie",
+   "id": "il-mxx-top-movies",
+   "name": "HBO Max - Top 10 סרטים"
+  },
+  {
+   "type": "series",
+   "id": "il-mxx-top-series",
+   "name": "HBO Max - Top 10 סדרות"
+  },
+  {
+   "type": "series",
+   "id": "anime-for-you",
+   "name": "אנימה - מומלץ לך"
+  },
+  {
+   "type": "series",
+   "id": "anime-top-series",
+   "name": "אנימה - Top 10 סדרות"
+  },
+  {
+   "type": "movie",
+   "id": "anime-top-movies",
+   "name": "אנימה - Top 10 סרטים"
   }
  ],
  "behaviorHints": {
